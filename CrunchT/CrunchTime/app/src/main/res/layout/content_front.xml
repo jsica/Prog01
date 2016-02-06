@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jessica.crunchtime.Front"
+    tools:showIn="@layout/activity_front"
+    android:background="@drawable/blur"
+    android:backgroundTint="#24a4a1a1"
+    android:backgroundTintMode="screen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crunchtime"
+        android:id="@+id/textView"
+        android:textSize="60dp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="It&apos;s"
+        android:id="@+id/textView2"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/button" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/name"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey there, what&apos;s your name?"
+        android:id="@+id/textView4"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ececec"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:id="@+id/button"
+        android:background="#6a989393"
+        android:layout_marginTop="56dp"
+        android:layout_alignTop="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:onClick="next"
+        android:textColor="#4e4a4a" />
+
+</RelativeLayout>
