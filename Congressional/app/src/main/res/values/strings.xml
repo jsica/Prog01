@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Congressional</string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_repview">repview</string>
-    <string name="title_activity_detail">detail</string>
-    <string name="title_activity_watchview">watchview</string>
-    <string name="hello_round">Hello Round World!</string>
-    <string name="hello_square">Hello Square World!</string>
-</resources>
